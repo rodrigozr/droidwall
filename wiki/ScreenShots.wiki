@@ -1,3 +1,8 @@
 #summary Droid Wall screen shots
+#labels Featured
 
 = Droid Wall screen shots =
+
+http://droidwall.googlecode.com/svn/wiki/ss-1.png
+
+http://droidwall.googlecode.com/svn/wiki/ss-2.png
