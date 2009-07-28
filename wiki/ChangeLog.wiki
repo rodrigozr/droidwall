@@ -3,6 +3,11 @@
 
 = Droid Wall change log =
 
+*Droid Wall v1.3* - _(not released yet)_
+  * Better handling of root commands and errors.
+  * Removed temporary shell script for a better compatibility with some ROMs. All root commands are now executed through a shell session.
+  * Added root permission check before executing commands, giving a much better message to users when root access cannot be acquired.
+
 *Droid Wall v1.2* - 28/July/2009
   * Added error detection while applying iptable rules. The ouput will be displayed on a dialog box to help tracking the problem.
   * Minor performance improvements.
