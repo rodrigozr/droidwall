@@ -1,0 +1,11 @@
+#summary Droid Wall change log
+#labels Featured
+
+= Droid Wall change log =
+
+*Droid Wall v1.2* - 28/July/2009
+  * Added error detection while applying iptable rules. The ouput will be displayed on a dialog box to help tracking the problem.
+  * Minor performance improvements.
+
+*Droid Wall v1.1* - 27/July/2009
+  * Better help instructions.
