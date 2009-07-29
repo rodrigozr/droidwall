@@ -3,10 +3,13 @@
 
 = Droid Wall change log =
 
-*Droid Wall v1.3* - _(not released yet)_
+*Droid Wall v1.3.0* - 29/July/2009
   * Better handling of root commands and errors.
   * Removed temporary shell script for a better compatibility with some ROMs. All root commands are now executed through a shell session.
-  * Added root permission check before executing commands, giving a much better message to users when root access cannot be acquired.
+  * Added root permission check before executing commands, giving a much better message to the user when root access cannot be acquired.
+  * Added specific iptables error verification, informing the user why it has failed and how to fix the problem if possible.
+  * Added a verification and warning when the "Wireless Tether for Root Users" application is installed, since Droid Wall may conflict with it.
+  * Minor performance enhancements.
 
 *Droid Wall v1.2* - 28/July/2009
   * Added error detection while applying iptable rules. The ouput will be displayed on a dialog box to help tracking the problem.
