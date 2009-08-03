@@ -3,12 +3,13 @@
 
 = Droid Wall change log =
 
-*Droid Wall v1.3.1* - _Next release_
+*Droid Wall v1.3.1* - 03/August/2009 _(Latest version)_
   * Added optional password protection lock
   * Added network interfaces selection (2G/3G, Wi-fi, Both)
   * Added "White list" or "Black list" operation mode
   * Much better help dialog :)
   * Minor performance enhancements
+  * Reduced application size by removing unnecessary images
 
 *Droid Wall v1.3.0* - 29/July/2009 _(Latest version)_
   * Better handling of root commands and errors
