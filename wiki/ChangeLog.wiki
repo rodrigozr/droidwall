@@ -11,7 +11,7 @@
   * Minor performance enhancements
   * Reduced application size by removing unnecessary images
 
-*Droid Wall v1.3.0* - 29/July/2009 _(Latest version)_
+*Droid Wall v1.3.0* - 29/July/2009
   * Better handling of root commands and errors
   * Removed temporary shell script for a better compatibility with some ROMs. All root commands are now executed through a shell session
   * Added root permission check before executing commands, giving a much better message to the user when root access cannot be acquired
