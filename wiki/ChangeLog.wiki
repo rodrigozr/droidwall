@@ -3,7 +3,10 @@
 
 = Droid Wall change log =
 
-*Droid Wall v1.3.2* - 03/August/2009 _(Latest version)_
+*Droid Wall v1.3.3* - 10/August/2009 _(Latest version)_
+  * Increased timeouts for root commands.
+
+*Droid Wall v1.3.2* - 03/August/2009
   * Bug fix: Droid Wall was blocking DHCP requests when "White listing" Wi-fi.
 
 *Droid Wall v1.3.1* - 03/August/2009
