@@ -4,8 +4,8 @@
 = Droid Wall change log =
 
 *Droid Wall v1.3.5* - 10/September/2009 _(Latest version)_
-  * Tests are now being performed on CyanogenMod ROM
-  * Added "Media server" to the applications list. This process is used to download media in the background. This fixes YouTube for Cyanogen users.
+  * Tests are now being performed on Cyanogen's ROM
+  * Added "Media server" to the applications list. This process is used to download media in the background. This fixes You-Tube for Cyanogen users.
 
 *Droid Wall v1.3.4* - 10/September/2009
   * Added "(Applications running as root)" to the applications list. This fixes problems with some applications (such as You-tube) that download things as root.
