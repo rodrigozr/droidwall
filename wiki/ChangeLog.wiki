@@ -3,7 +3,10 @@
 
 = Droid Wall change log =
 
-*Droid Wall v1.3.3* - 10/August/2009 _(Latest version)_
+*Droid Wall v1.3.4* - 10/September/2009 _(Latest version)_
+  * Added "(Applications running as root)" to the applications list. This fixes problems with some applications (such as You-tube) that download things as root.
+
+*Droid Wall v1.3.3* - 10/August/2009
   * Increased timeouts for root commands.
 
 *Droid Wall v1.3.2* - 03/August/2009
