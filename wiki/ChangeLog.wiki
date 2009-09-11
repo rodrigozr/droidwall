@@ -3,6 +3,9 @@
 
 = Droid Wall change log =
 
+*Droid Wall v1.3.6* - _(Not released yet)_
+  * Much faster rules restore on reboot - fixes "not responding" and force close on start up.
+
 *Droid Wall v1.3.5* - 10/September/2009 _(Latest version)_
   * Tests are now being performed on Cyanogen's ROM
   * Added "Media server" to the applications list. This process is used to download media in the background. This fixes You-Tube for Cyanogen users.
