@@ -3,10 +3,12 @@
 
 = Droid Wall change log =
 
-*Droid Wall v1.3.6* - _(Not released yet)_
-  * Much faster rules restore on reboot - fixes "not responding" and force close on start up.
+*Droid Wall v1.3.6* - 14/January/2010 _(Latest version)_
+  * Much faster rules restore on reboot - fixes "not responding" and force close on start up
+  * It is now possible to completely disable the firewall functionality (and it won't re-enable on reboot). Check the new "Disable Firewall" menu item
+  * Removed the "Purge Rules" menu item (replaced by the new "Disable Firewall")
 
-*Droid Wall v1.3.5* - 10/September/2009 _(Latest version)_
+*Droid Wall v1.3.5* - 10/September/2009
   * Tests are now being performed on Cyanogen's ROM
   * Added "Media server" to the applications list. This process is used to download media in the background. This fixes You-Tube for Cyanogen users.
 
