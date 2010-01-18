@@ -3,6 +3,9 @@
 
 = Droid Wall change log =
 
+*Droid Wall v1.3.7* - _(Next release - under development)_
+  * Only show "Internet-enabled" applications in the list
+
 *Droid Wall v1.3.6* - 14/January/2010 _(Latest version)_
   * Much faster rules restore on reboot - fixes "not responding" and force close on start up
   * It is now possible to completely disable the firewall functionality (and it won't re-enable on reboot). Check the new "Disable Firewall" menu item
