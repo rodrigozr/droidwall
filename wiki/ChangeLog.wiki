@@ -3,6 +3,11 @@
 
 = Droid Wall change log =
 
+*Droid Wall v1.4.0* - _Next release (Under development)_
+  * Added widget to easily enable/disable the firewall from home :)
+  * Improved "reading installed applications" performance by caching the necessary data (only the first load after installing will still be slow).
+  * Fixed compatibility with many devices.
+
 *Droid Wall v1.3.7* - April/28/2010 _(Latest version)_
   * Only show "Internet-enabled" applications in the list.
   * Added per-application independent interface selection. You can now allow some applications to use only Wi-fi while others can use both Wi-fi and 3G, for example. Thanks to Adrian Pasvante.
