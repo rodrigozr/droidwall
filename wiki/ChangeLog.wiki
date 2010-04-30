@@ -7,6 +7,7 @@
   * Added widget to easily enable/disable the firewall from home :)
   * Improved "reading installed applications" performance by caching the necessary data (only the first load after installing will still be slow).
   * Fixed compatibility with many devices.
+  * Better compatibility with some "Superuser Permissions" versions.
 
 *Droid Wall v1.3.7* - April/28/2010 _(Latest version)_
   * Only show "Internet-enabled" applications in the list.
