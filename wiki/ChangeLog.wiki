@@ -4,7 +4,10 @@
 = Droid Wall change log =
 
 *Droid Wall v1.4.0* - _Next release (Under development)_
-  * Added widget to easily enable/disable the firewall from home :)
+  * Don't use system iptables anymore. An iptables binary is bundled with Droid Wall now.
+  * Show Rules now display detailed output (iptables -L -v).
+  * Avoid conflicts with other application that use iptables by defining a custom netfilter chain.
+  * Added widget to easily enable/disable the firewall from home (official now)
   * Improved "reading installed applications" performance by caching the necessary data (only the first load after installing will still be slow).
   * Fixed compatibility with many devices.
   * Better compatibility with some "Superuser Permissions" versions.
