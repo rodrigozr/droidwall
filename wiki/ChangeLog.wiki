@@ -3,6 +3,8 @@
 
 = Droid Wall change log =
 
+*WARNING:* It seems that the iptables binary shipped with version 1.4.0 is not working on some devices (Nexus One is reported to NOT WORK). I am still trying to find a good iptables binary that works well on most devices.
+
 *Droid Wall v1.4.0* - September/06/2010 _(Latest version)_
   * *IMPORTANT: If you have Droid Wall enabled and update to this version, please reboot your phone to flush old iptables rules. If you disable Droid Wall before updating, this is not necessary.*
   * Don't use system iptables anymore. An iptables binary is bundled with Droid Wall now.
