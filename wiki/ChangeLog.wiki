@@ -3,6 +3,10 @@
 
 = Droid Wall change log =
 
+*Droid Wall v1.4.2* - _Under development (next version)_
+  * Fixed compatibility with devices without the "test" command available.
+  * Fixed a bug where one of the selected applications would be ignored, as if it was not selected at all.
+
 *Droid Wall v1.4.1* - September/08/2010 _(Latest version)_
   * Fix segfault on newer devices.
   * This version includes two different iptables binaries, and choose which to use on run-time. If none of the included versions work, it will still attempt to use the system version (if any).
