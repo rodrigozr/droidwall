@@ -6,8 +6,9 @@
 *Droid Wall v1.4.2* - _Under development (next version)_
   * Fixed compatibility with devices without the "test" command available.
   * Fixed a bug where one of the selected applications would be ignored, as if it was not selected at all.
-  * Added support for 4G/Wi-max interfaces.
-  * Added a simple logging support. It is now possible to determine which applications have been blocked by Droid Wall, if your kernel supports this functionality.
+  * Fixed "grep command is required" error on phones that have busybox grep but the link is not in the system path.
+  * Added support for some 4G/Wi-max interfaces.
+  * Added a simple logging support! It is now possible to determine which applications have been blocked by Droid Wall, if your kernel supports this functionality.
 
 *Droid Wall v1.4.1* - September/08/2010 _(Latest version)_
   * Fix segfault on newer devices.
