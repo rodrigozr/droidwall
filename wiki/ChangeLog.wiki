@@ -9,6 +9,7 @@
   * Fixed "grep command is required" error on phones that have busybox grep but the link is not in the system path.
   * Added support for some 4G/Wi-max interfaces.
   * Added a simple logging support! It is now possible to determine which applications have been blocked by Droid Wall, if your kernel supports this functionality.
+  * Added a simple busybox binary, so you don't have to install busybox manually anymore.
 
 *Droid Wall v1.4.1* - September/08/2010 _(Latest version)_
   * Fix segfault on newer devices.
