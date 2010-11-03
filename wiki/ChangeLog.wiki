@@ -1,29 +1,29 @@
-#summary Droid Wall change log
+#summary DroidWall change log
 #labels Featured
 
-= Droid Wall change log =
+= DroidWall change log =
 
 *Please, consider [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G3SNNAKRK5YV4&lc=US&item_name=DroidWall&item_number=DroidWall&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted donating] if you like this product and want to contribute with its development. Thank you very much.*
 
-*Droid Wall v1.4.3* - Under development _(Next release)_
+*DroidWall v1.4.3* - Under development _(Next release)_
   * Application list is now automatically refreshed.
   * Log output now displays the number of packets blocked per destination IP address.
 
-*Droid Wall v1.4.2* - September/29/2010 _(Latest version)_
+*DroidWall v1.4.2* - September/29/2010 _(Latest version)_
   * Fixed compatibility with devices without the "test" command available.
   * Fixed a bug where one of the selected applications would be ignored, as if it was not selected at all.
   * Fixed "grep command is required" error on phones that have busybox grep but the link is not in the system path.
   * Added support for some 4G/Wi-max interfaces.
-  * Added a simple logging support! It is now possible to determine which applications have been blocked by Droid Wall, if your kernel supports this functionality.
+  * Added a simple logging support! It is now possible to determine which applications have been blocked by DroidWall, if your kernel supports this functionality.
   * Added a simple busybox binary, so you don't have to install busybox manually anymore.
 
-*Droid Wall v1.4.1* - September/08/2010
+*DroidWall v1.4.1* - September/08/2010
   * Fix segfault on newer devices.
   * This version includes two different iptables binaries, and choose which to use on run-time. If none of the included versions work, it will still attempt to use the system version (if any).
 
-*Droid Wall v1.4.0* - September/06/2010
-  * *IMPORTANT: If you have Droid Wall enabled and update to this version, please reboot your phone to flush old iptables rules. If you disable Droid Wall before updating, this is not necessary.*
-  * Don't use system iptables anymore. An iptables binary is bundled with Droid Wall now.
+*DroidWall v1.4.0* - September/06/2010
+  * *IMPORTANT: If you have DroidWall enabled and update to this version, please reboot your phone to flush old iptables rules. If you disable DroidWall before updating, this is not necessary.*
+  * Don't use system iptables anymore. An iptables binary is bundled with DroidWall now.
   * Show Rules now display detailed output (iptables -L -v).
   * Avoid conflicts with other application that use iptables by defining a custom netfilter chain.
   * Added widget to easily enable/disable the firewall from home (official now)
@@ -31,31 +31,31 @@
   * Fixed compatibility with many devices.
   * Better compatibility with some "Superuser Permissions" versions.
 
-*Droid Wall v1.3.7* - April/28/2010 _(Latest version)_
+*DroidWall v1.3.7* - April/28/2010 _(Latest version)_
   * Only show "Internet-enabled" applications in the list.
   * Added per-application independent interface selection. You can now allow some applications to use only Wi-fi while others can use both Wi-fi and 3G, for example. Thanks to Adrian Pasvante.
   * Fix a problem restoring rules at startup by storing only the application UID. This has a possible side-effect if you remove and install many applications since the UID might be reused, but the benefit seems worth the risk on this case. Thanks to Adrian Pasvante.
 
-*Droid Wall v1.3.6* - January/14/2010
+*DroidWall v1.3.6* - January/14/2010
   * Much faster rules restore on reboot - fixes "not responding" and force close on start up
   * It is now possible to completely disable the firewall functionality (and it won't re-enable on reboot). Check the new "Disable Firewall" menu item
   * Removed the "Purge Rules" menu item (replaced by the new "Disable Firewall")
   * If you receive an error during the update, please uninstall the previous version and try again
 
-*Droid Wall v1.3.5* - September/10/2009
+*DroidWall v1.3.5* - September/10/2009
   * Tests are now being performed on Cyanogen's ROM
   * Added "Media server" to the applications list. This process is used to download media in the background. This fixes You-Tube for Cyanogen users.
 
-*Droid Wall v1.3.4* - September/10/2009
+*DroidWall v1.3.4* - September/10/2009
   * Added "(Applications running as root)" to the applications list. This fixes problems with some applications (such as You-tube) that download things as root.
 
-*Droid Wall v1.3.3* - August/10/2009
+*DroidWall v1.3.3* - August/10/2009
   * Increased timeouts for root commands.
 
-*Droid Wall v1.3.2* - August/03/2009
-  * Bug fix: Droid Wall was blocking DHCP requests when "White listing" Wi-fi.
+*DroidWall v1.3.2* - August/03/2009
+  * Bug fix: DroidWall was blocking DHCP requests when "White listing" Wi-fi.
 
-*Droid Wall v1.3.1* - August/03/2009
+*DroidWall v1.3.1* - August/03/2009
   * Added optional password protection lock
   * Added network interfaces selection (2G/3G, Wi-fi, Both)
   * Added "White list" or "Black list" operation mode
@@ -64,17 +64,17 @@
   * Minor performance enhancements
   * Reduced application size by removing unnecessary images
 
-*Droid Wall v1.3.0* - July/29/2009
+*DroidWall v1.3.0* - July/29/2009
   * Better handling of root commands and errors
   * Removed temporary shell script for a better compatibility with some ROMs. All root commands are now executed through a shell session
   * Added root permission check before executing commands, giving a much better message to the user when root access cannot be acquired
   * Added specific iptables error verification, informing the user why it has failed and how to fix the problem if possible
-  * Added a verification and warning when the "Wireless Tether for Root Users" application is installed, since Droid Wall may conflict with it.
+  * Added a verification and warning when the "Wireless Tether for Root Users" application is installed, since DroidWall may conflict with it.
   * Minor performance enhancements
 
-*Droid Wall v1.2* - July/28/2009
+*DroidWall v1.2* - July/28/2009
   * Added error detection while applying iptable rules. The ouput will be displayed on a dialog box to help tracking the problem
   * Minor performance improvements
 
-*Droid Wall v1.1* - July/27/2009
+*DroidWall v1.1* - July/27/2009
   * Better help instructions
