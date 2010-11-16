@@ -5,12 +5,12 @@
 
 *Please, consider [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G3SNNAKRK5YV4&lc=US&item_name=DroidWall&item_number=DroidWall&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted donating] if you like this product and want to contribute with its development. Thank you very much.*
 
-*!DroidWall v1.4.3* - Under development _(Next release)_
+*!DroidWall v1.4.3* - November/16/2010 _(Latest version)_
   * Application list is now automatically refreshed.
   * Log output now displays the number of packets blocked per destination IP address.
   * Fixed "Exit code: -1" error on some devices.
 
-*!DroidWall v1.4.2* - September/29/2010 _(Latest version)_
+*!DroidWall v1.4.2* - September/29/2010
   * Fixed compatibility with devices without the "test" command available.
   * Fixed a bug where one of the selected applications would be ignored, as if it was not selected at all.
   * Fixed "grep command is required" error on phones that have busybox grep but the link is not in the system path.
