@@ -5,6 +5,12 @@
 
 *Please, consider [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G3SNNAKRK5YV4&lc=US&item_name=DroidWall&item_number=DroidWall&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted donating] if you like this product and want to contribute with its development. Thank you very much.*
 
+*Next version* _(under development)_
+  * Fixed a bug where application list refresh could get stuck forever.
+  * Changed the default firewall state to "disabled" right after installing !DroidWall. This avoids problems if you install it and forget to set the rules.
+  * Added "Exit" menu option to completely exit the application. Please note that this does not affect the firewall state at all.
+  * Added "pt-BR" Portuguese (Brazilian) translation.
+
 *!DroidWall v1.4.3* - November/16/2010 _(Latest version)_
   * Application list is now automatically refreshed.
   * Log output now displays the number of packets blocked per destination IP address.
