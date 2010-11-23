@@ -10,6 +10,7 @@
   * Changed the default firewall state to "disabled" right after installing !DroidWall. This avoids problems if you install it and forget to set the rules.
   * Added "Exit" menu option to completely exit the application. Please note that this does not affect the firewall state at all.
   * Added "pt-BR" Portuguese (Brazilian) translation.
+  * Resolution independent UI for better visualization in tablets.
 
 *!DroidWall v1.4.3* - November/16/2010 _(Latest version)_
   * Application list is now automatically refreshed.
