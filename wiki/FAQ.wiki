@@ -1,0 +1,18 @@
+#summary FAQ - Frequently Asked Questions
+#labels Featured
+
+= FAQ - Frequently Asked Questions =
+
+<font size="3">*1.* When I try to enable the firewall, it fails with the following message: *_can't initialize iptables table 'filter': Table does not exist (do you need to insmod?)
+Perhaps iptables or your kernel needs to be upgraded._*</font>
+
+  This error message unfortunately means that your kernel does not support iptables/netfilter, so !DroidWall will not work.<br/>
+  There is nothing I can do on !DroidWall to make it work, and the only possible solution is to flash a customized ROM with netfilter support.
+
+<font size="3">*2.* When I try to enable the firewall, it fails with the following message: *_no chains/target/match by that name_*</font>
+  This error message unfortunately means that your kernel does not support *netfilter owner match* module, so !DroidWall will not work.<br/>
+  There is nothing I can do on !DroidWall to make it work, and the only possible solution is to flash a customized ROM with support for this feature.<br/>
+  ROM developers, please ensure that the following configuration option is enabled in the kernel (either built-in or as a module): *CONFIG_NETFILTER_XT_MATCH_OWNER*
+
+<font size="3">*3.* After installing !DroidWall I cannot send/receive MMS. How can I fix this?</font>
+  Just enable the *Messaging* application to access your 2G/3G network.
