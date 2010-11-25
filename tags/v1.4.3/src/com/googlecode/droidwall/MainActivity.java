@@ -71,6 +71,7 @@ public class MainActivity extends Activity implements OnCheckedChangeListener, O
 	/** progress dialog instance */
 	private ProgressDialog progress = null;
 	private ListView listview;
+	private static boolean warnedOldVersion = false;
 	
     /** Called when the activity is first created. */
     @Override
@@ -280,6 +281,10 @@ public class MainActivity extends Activity implements OnCheckedChangeListener, O
         	}
         };
         this.listview.setAdapter(adapter);
+        if (!warnedOldVersion) {
+        	new HelpDialog(this, true).show();
+        	warnedOldVersion = true;
+        }
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

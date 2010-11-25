@@ -23,7 +23,10 @@ package com.googlecode.droidwall;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.View;
+import android.widget.Button;
 
 /**
  * Dialog displayed when the "Help" menu option is selected
@@ -35,6 +38,36 @@ public class HelpDialog extends AlertDialog {
 		setButton(context.getText(R.string.close), (OnClickListener)null);
 		setIcon(R.drawable.icon);
 		setTitle("DroidWall v" + Api.VERSION);
+		setView(view);
+	}
+	protected HelpDialog(final Context context, boolean oldVersionWarn) {
+		super(context);
+		final View view = getLayoutInflater().inflate(R.layout.oldverwarn_dialog, null);
+		setButton("I will update later", (OnClickListener)null);
+		setIcon(R.drawable.icon);
+		setTitle("Version warning");
+		Button btn = (Button) view.findViewById(R.id.btn_oldver_openmarket);
+		if (btn != null) {
+			btn.setOnClickListener(new View.OnClickListener() {
+	             public void onClick(View v) {
+	            	 String url = "market://search?q=pname:com.googlecode.droidwall.free";
+	            	 Intent i = new Intent(Intent.ACTION_VIEW);
+	            	 i.setData(Uri.parse(url));
+	            	 context.startActivity(i);
+	             }
+	         });
+		}
+		btn = (Button) view.findViewById(R.id.btn_oldver_remove);
+		if (btn != null) {
+			btn.setOnClickListener(new View.OnClickListener() {
+	             public void onClick(View v) {
+	            	 String url = "market://search?q=pname:com.googlecode.droidwall";
+	            	 Intent i = new Intent(Intent.ACTION_VIEW);
+	            	 i.setData(Uri.parse(url));
+	            	 context.startActivity(i);
+	             }
+	         });
+		}
 		setView(view);
 	}
 }
