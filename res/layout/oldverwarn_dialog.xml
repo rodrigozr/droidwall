@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="vertical">
+			<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:text="This DroidWall version has been deprecated!"
+				android:padding="6dip" />
+			<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:text="There is a new version available on Android Market for download. Since the application signature has changed, you have to manually install it and remove this version. To update, please follow these steps:"
+				android:padding="6dip" />
+			<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:text="1. Install the new version from Market:"
+				android:padding="6dip" />
+			<Button android:text="Click here to open it on Market" android:id="@+id/btn_oldver_openmarket" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:text="2. Uninstall the current version:"
+				android:padding="6dip" />
+			<Button android:text="Click here to open the old version" android:id="@+id/btn_oldver_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:text="3. Open the new version, configure and enable the firewall"
+				android:padding="6dip" />
+
+</LinearLayout>
+	</ScrollView>
+</FrameLayout>
