@@ -5,11 +5,12 @@
 
 *Please, consider [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G3SNNAKRK5YV4&lc=US&item_name=DroidWall&item_number=DroidWall&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted donating] if you like this product and want to contribute with its development. Thank you very much.*
 
-*New version* - _(Under development)_
+*!DroidWall v1.4.6* - December/29/2010 _(Latest version)_
   * Added support for Wimax interfaces
   * Fixed force-close on rare situation while switching orientation
+  * Happy new year! :)
 
-*!DroidWall v1.4.5* - November/25/2010 _(Latest version)_
+*!DroidWall v1.4.5* - November/25/2010
   * This is a minor bug-fix release
   * Definitive fix for the "Reading applications" dialog getting stuck.
 
