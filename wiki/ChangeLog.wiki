@@ -7,7 +7,7 @@
 
 *!DroidWall v1.4.7* - February/01/2011 _(Latest version)_
   * Added support for blocking/unblocking connections from the kernel. This fixes compatibility with applications such as !CifsManager.
-  * Fixed a bug where newly installed apps would be selected on DroidWall if you had removed a selected app (issue 79).
+  * Fixed a bug where newly installed apps would be selected on !DroidWall if you had removed a selected app (issue 79).
 
 *!DroidWall v1.4.6* - December/29/2010
   * Added support for Wimax interfaces
