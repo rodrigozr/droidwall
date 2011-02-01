@@ -5,10 +5,11 @@
 
 *Please, consider [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G3SNNAKRK5YV4&lc=US&item_name=DroidWall&item_number=DroidWall&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted donating] if you like this product and want to contribute with its development. Thank you very much.*
 
-*Next version* - _(Under development)_
+*!DroidWall v1.4.7* - February/01/2011 _(Latest version)_
   * Added support for blocking/unblocking connections from the kernel. This fixes compatibility with applications such as !CifsManager.
+  * Fixed a bug where newly installed apps would be selected on DroidWall if you had removed a selected app (issue 79).
 
-*!DroidWall v1.4.6* - December/29/2010 _(Latest version)_
+*!DroidWall v1.4.6* - December/29/2010
   * Added support for Wimax interfaces
   * Fixed force-close on rare situation while switching orientation
   * Happy new year! :)
