@@ -7,6 +7,7 @@
 
 *!DroidWall v1.5.1* - _(Under development)_
   * Changed the directory for binary files. This should avoid problems after running "fix permissions".
+  * Case-insensitive sorting on the list of applications.
 
 *!DroidWall v1.5.0* - February/25/2011 _(Latest version)_
   * New "OFF" widget icon, which should work better for colorblind sufferers.
