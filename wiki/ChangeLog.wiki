@@ -5,12 +5,15 @@
 
 *Please, consider [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G3SNNAKRK5YV4&lc=US&item_name=DroidWall&item_number=DroidWall&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted donating] if you like this product and want to contribute with its development. Thank you very much.*
 
-*!DroidWall v1.5.1* - _(Under development)_
+*!DroidWall v1.5.1* - April/28/2011 _(Latest version)_
+  * Now using a home-made iptables 1.4.10 binary, which should work on all ARM devices (no more segfaults/illegal instructions - hopefully).
   * Changed the directory for binary files. This should avoid problems after running "fix permissions".
   * Case-insensitive sorting on the list of applications.
   * Added "GPS" application to the list on systems that have a separated ID for it.
+  * Fixed ANR on boot and when using the widget.
+  * Added support for more 3G and 4G interfaces.
 
-*!DroidWall v1.5.0* - February/25/2011 _(Latest version)_
+*!DroidWall v1.5.0* - February/25/2011
   * New "OFF" widget icon, which should work better for colorblind sufferers.
   * Added German (de) translation. Thanks to "zionis...@googlemail.com"
   * Added Russian (ru) translation. Thanks to "!DeathSta...@gmail.com"
