@@ -7,6 +7,8 @@
 
 *!DroidWall v1.5.2* - _(Under development)_
   * Fixed "Exit code: -1" errors!
+  * Compatibility fixes for some devices.
+  * New iptables 1.4.10 binary, compiled using Android NDKr6 and with support for almost all iptables targets.
 
 *!DroidWall v1.5.1* - April/28/2011 _(Latest version)_
   * Now using a home-made iptables 1.4.10 binary, which should work on all ARM devices (no more segfaults/illegal instructions - hopefully).
