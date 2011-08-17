@@ -9,12 +9,12 @@
 
   This error message unfortunately means that your kernel does not support iptables/netfilter, so !DroidWall will not work.
 
-  There is nothing I can do on !DroidWall to make it work, and the only possible solution is to flash a customized ROM with netfilter support.
+  The only possible solution is to flash a customized ROM (or kernel) with full netfilter support.
 
 *2. no chains/target/match by that name*
   This error message unfortunately means that your kernel does not support *netfilter owner match* module, so !DroidWall will not work.
 
-  There is nothing I can do on !DroidWall to make it work, and the only possible solution is to flash a customized ROM with support for this feature.
+  The only possible solution is to flash a customized ROM (or kernel) with full netfilter support.
 
   ROM developers, please ensure that the following configuration option is enabled in the kernel (either built-in or as a module): *CONFIG_NETFILTER_XT_MATCH_OWNER*
 
