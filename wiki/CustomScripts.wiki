@@ -42,8 +42,10 @@ $IPTABLES -A "droidwall-3g" -p TCP --destination-port 80 -j "droidwall-reject"
 
 If you want !DroidWall to report failures on your rules, you must manually "exit" from the script on error. E.g.:
 {{{
-# Try to apply my custom rule, but report any failure
+# Try to apply my custom rule, but report any failure (and abort)
 $IPTABLES -A "droidwall" --destination "192.168.0.1" -j RETURN || exit
+# Try to apply another custom rule, but ignore any errors on it
+$IPTABLES -A "droidwall" -p TCP --destination-port 80 -j "droidwall-reject"
 }}}
 
 = Loading scripts from files =
