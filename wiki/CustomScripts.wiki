@@ -29,11 +29,15 @@ If use any chain not listed above, then you need to manually purge it BEFORE add
 == Examples ==
 {{{
 # Always allow connections to 192.168.0.1, no matter the interface
-$IPTABLES -A droidwall --destination "192.168.0.1" -j RETURN
+$IPTABLES -A "droidwall" --destination "192.168.0.1" -j RETURN
 }}}
 {{{
 # Block all connections in the TCP port 80 (http) 
-$IPTABLES -A droidwall -p TCP --destination-port 80 -j droidwall-reject
+$IPTABLES -A "droidwall" -p TCP --destination-port 80 -j "droidwall-reject"
+}}}
+{{{
+# Block HTTP connections, but only on cellular interface
+$IPTABLES -A "droidwall-3g" -p TCP --destination-port 80 -j "droidwall-reject"
 }}}
 
 = Loading scripts from files =
@@ -44,4 +48,14 @@ To do that, just use the "." (dot) shell command in the "Set custom script" dial
 {{{
 . /path/to/script.sh
 }}}
-This will cause your script file to be loaded and executed every time the custom script is ran.
+This will cause your script file to be loaded and executed every time the rules are applied.
+
+You can even have multiple scripts executed in sequence...
+{{{
+. /path/to/load-modules.sh
+. /path/to/myrules.sh
+. /path/to/myscript.sh
+}}}
+
+However, please note that this can create a serious security breach on your device, since the script will be always executed as *root*!
+You must place your script where other applications will not be able to modify it (the sdcard is NOT a good place).
