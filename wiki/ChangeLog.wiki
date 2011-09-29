@@ -5,11 +5,11 @@
 
 *Please, consider [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G3SNNAKRK5YV4&lc=US&item_name=DroidWall&item_number=DroidWall&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted donating] if you like this product and want to contribute with its development. Thank you very much.*
 
-*!DroidWall v1.5.3* - _(Under development - next release)_
+*!DroidWall v1.5.3* - September/29/2011 _(Latest version)_
   * Added support for custom scripts. See CustomScripts for more details.
   * Added Czech Translation (Česky)
 
-*!DroidWall v1.5.2* - July/20/2011 _(Latest version)_
+*!DroidWall v1.5.2* - July/20/2011
   * Fixed "Exit code: -1" errors!
   * Compatibility fixes for some devices.
   * New iptables 1.4.10 binary, compiled using Android NDKr6 and with support for almost all iptables targets.
