@@ -32,6 +32,10 @@ If use any chain not listed above, then you need to manually purge it BEFORE add
 $IPTABLES -A "droidwall" --destination "192.168.0.1" -j RETURN
 }}}
 {{{
+# Allow all connections to the local network (192.168.0.XXX) on Wi-fi
+$IPTABLES -A "droidwall-wifi" --destination "192.168.0.0/24" -j RETURN
+}}}
+{{{
 # Block all connections in the TCP port 80 (http) 
 $IPTABLES -A "droidwall" -p TCP --destination-port 80 -j "droidwall-reject"
 }}}
