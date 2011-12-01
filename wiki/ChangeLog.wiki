@@ -5,12 +5,12 @@
 
 *Please, consider [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G3SNNAKRK5YV4&lc=US&item_name=DroidWall&item_number=DroidWall&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted donating] if you like this product and want to contribute with its development. Thank you very much.*
 
-*!DroidWall v1.5.5* - _(Next version)_
-  * Added application icons to the list
+*!DroidWall v1.5.5* - December/01/2011 _(Latest version)_
+  * Added application icons to the list.
   * New applications are shown on the top of the list.
-  * Enabled hardware acceleration on Android >= 3.0
+  * Enabled hardware acceleration on Android >= 3.0.
 
-*!DroidWall v1.5.4* - October/14/2011 _(Latest version)_
+*!DroidWall v1.5.4* - October/14/2011
   * Fixed OK button not showing in the Custom Script dialog on some devices. Pressing "back" also asks to apply on that screen now.
   * Added support for a custom shutdown script, which can be used to define cleanup rules when the firewall is disabled.
   * Avoid reloading the apps list all the time.
