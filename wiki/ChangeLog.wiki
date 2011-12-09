@@ -5,7 +5,11 @@
 
 *Please, consider [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G3SNNAKRK5YV4&lc=US&item_name=DroidWall&item_number=DroidWall&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted donating] if you like this product and want to contribute with its development. Thank you very much.*
 
-*!DroidWall v1.5.5* - December/01/2011 _(Latest version)_
+*!DroidWall v1.5.6* - December/09/2011 _(Latest version)_
+  * Load application icons on a background task to reduce the overhead.
+  * Added application UIDs back to the list.
+
+*!DroidWall v1.5.5* - December/01/2011
   * Added application icons to the list.
   * New applications are shown on the top of the list.
   * Enabled hardware acceleration on Android >= 3.0.
