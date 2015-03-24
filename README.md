@@ -8,7 +8,7 @@ This is the perfect solution if you don't have an unlimited data plan, or just w
 
 After installing, press menu and click Help for an explanation on how to use it.
 
-Be sure to check the [FAQ](FAQ.md).
+Be sure to check the [FAQ](../wiki/FAQ.md).
 
 **Please, consider [donating](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G3SNNAKRK5YV4&lc=US&item_name=DroidWall&item_number=DroidWall&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted) if you like this product and want to contribute with its development. Thank you very much.**
 
